@@ -4,6 +4,7 @@ uzacommon.globalise(uzacommon,global);
 
 import runTests from './tests.js';
 import EventsCore from './events.js';
+import EventEmitter from 'events';
 
 class AssetsCore extends EventEmitter {
 	constructor(){
